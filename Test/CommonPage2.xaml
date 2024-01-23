@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Test.CommonPage2"
+             Title="Настройка профиля">
+    <VerticalStackLayout>
+        <Entry x:Name="NameEntry" Placeholder="Имя"></Entry>
+        <Entry x:Name="FamilyEntry" Placeholder="Фамилия"></Entry>
+        <Entry x:Name="UserEntry" Placeholder="Имя пользователя"></Entry>
+        <Entry x:Name="PassEntry" Placeholder="Пароль"></Entry>
+        <Button Text="Сохранить" Clicked="Button_Clicked"></Button>
+    </VerticalStackLayout>
+</ContentPage>

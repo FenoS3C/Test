@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Test.ModalPage"
+             Title="Меню">
+    <VerticalStackLayout Spacing="15">
+        <Label x:Name="NameLB" FontSize="50"  VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+        <Label x:Name="FamilyLB" FontSize="50" VerticalOptions="CenterAndExpand"  HorizontalOptions="CenterAndExpand"/>
+        <Button Text="Программа" x:Name="ProgBT" Clicked="Программа_Clicked"></Button>
+        <Button Text="Настройка профиля" x:Name="UserBT" Clicked="UserBT_Clicked" ></Button>
+    </VerticalStackLayout>
+</ContentPage>
